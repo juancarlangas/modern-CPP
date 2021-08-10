@@ -21,3 +21,5 @@ if ( MSVC )
 elseif ( CMAKE_COMPILER_IS_GNUCXX )
     target_compile_options( course PRIVATE "-Wall -Wextra -Wpedantic -g" )
 endif ()
+
+set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
