@@ -15,6 +15,7 @@ add_executable( course
     src/util/utilities.hpp )
 
 target_compile_features( course PRIVATE cxx_std_20 )
+set_property( TARGET course PROPERTY CXX_STANDARD 20 )
 
 if ( MSVC )
     target_compile_options( course PRIVATE "/W4" )
