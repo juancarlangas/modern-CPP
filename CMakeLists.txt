@@ -1,3 +1,5 @@
+#set( CMAKE_CXX_STANDARD 20 )
+
 cmake_minimum_required( VERSION 3.21.0 )
 
 project( course 
@@ -5,17 +7,20 @@ project( course
     DESCRIPTION "Clases de modern C++ con Dennis Ritchie West"
     LANGUAGES CXX )
 
+
 add_executable( course
     src/main.cpp
     src/clases/temas.hpp
     src/clases/008-2-0-atributos.cpp
     src/clases/008-2-1-enumeraciones.cpp
     src/clases/008-2-2-switch.cpp
+    src/clases/008-3-0-arreglos.cpp
     src/util/utilities.cpp
     src/util/utilities.hpp )
 
-target_compile_features( course PRIVATE cxx_std_20 )
 set_property( TARGET course PROPERTY CXX_STANDARD 20 )
+target_compile_features( course PRIVATE cxx_std_20 )
+set( CXX_STANDARD_REQUIRED ON )
 
 if ( MSVC )
     target_compile_options( course PRIVATE "/W4" )

@@ -1,10 +1,9 @@
 /*                      ATRIBUTOS DE C++
 
-Nos permiten especificar comportamientos al compilador
-para que produzca un código mucho más eficiente
+Nos permiten especificar comportamientos al compilador para que produzca un código más eficiente
 */
 
-#include "../util/utilities.hpp"
+#include "../util/utilities.hpp" // utilerías personales
 #include <iostream>
 
 /****************************** [[ noreturn ]] ********************************
