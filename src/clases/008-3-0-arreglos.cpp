@@ -45,3 +45,8 @@ void clase_array() noexcept
         imprimir_arreglo( array_1 );    // Imprimimos después de que internamente
                                         // la función modificó la referencia
 }
+
+void funcion_decltype() noexcept
+{
+    decltype( auto ) value = 1;
+}
