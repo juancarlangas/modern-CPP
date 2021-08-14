@@ -14,7 +14,8 @@ add_executable( course
     src/clases/008-2-0-atributos.cpp
     src/clases/008-2-1-enumeraciones.cpp
     src/clases/008-2-2-switch.cpp
-    src/clases/008-3-0-arreglos.cpp
+    src/clases/008-3-0-referencias.cpp
+    src/clases/008-3-1-arreglos.cpp
     src/util/utilities.cpp
     src/util/utilities.hpp )
 
