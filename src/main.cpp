@@ -17,5 +17,7 @@ int32_t main()
 
     estructura_switch();
 
+    clase_array();
+
     return EXIT_SUCCESS;
 }

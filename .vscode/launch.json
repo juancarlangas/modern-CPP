@@ -15,7 +15,7 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "console": "externalTerminal",
-            "preLaunchTask": "C/C++: cl.exe compilar archivo activo"
+            // "preLaunchTask": "C/C++: cl.exe compilar archivo activo"
         }
     ]
 }

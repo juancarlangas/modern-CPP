@@ -13,3 +13,6 @@
 
 // 008-2-2-switch.cpp
     void estructura_switch() noexcept;
+
+// 008-3-0-arreglos.cpp
+    void clase_array() noexcept;
