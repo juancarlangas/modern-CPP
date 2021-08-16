@@ -2,6 +2,11 @@
 
 #include <iostream>
 
+void imprimir_nombre_de_funcion( const char * ) noexcept
+{
+	std::cout << "///////////// void " << __func__ << "()";
+}
+
 void print_function_title( std::string_view _Nombre ) noexcept
 {
     std::cout << _Nombre << '\n';

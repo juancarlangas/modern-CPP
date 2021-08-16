@@ -1,2 +1,17 @@
-1.  Se supone que los atributos mejoran la ejecución del programa
+1. Porqué un utf16 no puede ser codificado como utf8 ni como utf16 de esta manera:
+	marioUTF8 =
+		#include "../txt/u8_mario-utf16.txt"
+
+	std::u16string marioUTF16 =
+		#include "../txt/u_mario-utf16.txt"
+	;
+
+2. CREAR NUESTRO BUFFER: Porqué esto no funciona?
+
+	std::filebuf mi_buffer{ stdout };
+	std::ostream miCout{ &mi_buffer };
+
+	miCout << "Hola amiguitos";
+
+	3.  Se supone que los atributos mejoran la ejecución del programa
     o más bien la compilación?

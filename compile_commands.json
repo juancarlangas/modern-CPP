@@ -1,0 +1,156 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/main.cpp",
+      "-o",
+      "obj/main.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/main.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/001-flujos-1.cpp",
+      "-o",
+      "obj/001-flujos-1.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/001-flujos-1.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/001-flujos-1.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/002-flujos-2.cpp",
+      "-o",
+      "obj/002-flujos-2.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/002-flujos-2.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/002-flujos-2.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/003-namespaces.cpp",
+      "-o",
+      "obj/003-namespaces.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/003-namespaces.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/003-namespaces.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/004-funciones-1.cpp",
+      "-o",
+      "obj/004-funciones-1.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/004-funciones-1.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/004-funciones-1.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/005-funciones-2.cpp",
+      "-o",
+      "obj/005-funciones-2.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/005-funciones-2.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/005-funciones-2.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/006-define.cpp",
+      "-o",
+      "obj/006-define.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/006-define.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/006-define.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/007-condicionales.cpp",
+      "-o",
+      "obj/007-condicionales.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/007-condicionales.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/007-condicionales.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/008-string_view.cpp",
+      "-o",
+      "obj/008-string_view.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/008-string_view.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/008-string_view.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/misFuncionesMatematicas.cpp",
+      "-o",
+      "obj/misFuncionesMatematicas.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/misFuncionesMatematicas.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/misFuncionesMatematicas.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-10",
+      "-c",
+      "-std=c++20",
+      "-g",
+      "src/utilities.cpp",
+      "-o",
+      "obj/utilities.o"
+    ],
+    "directory": "/home/juancarlangas/Programming/modern-C++/Course",
+    "file": "/home/juancarlangas/Programming/modern-C++/Course/src/utilities.cpp",
+    "output": "/home/juancarlangas/Programming/modern-C++/Course/obj/utilities.o"
+  }
+]
