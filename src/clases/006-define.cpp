@@ -30,13 +30,13 @@ LK
     RETORNAR;
 RK
 
-//--------------------------- #define (Sustitución de BLOQUES) --------------------------------
-// #define <identificador> 	\
-// 		<linea de texto>	\
-// 		.					\
-// 		.					\
-// 		<linea de texto>
-//-----------------------------------------------------------------------------------------------
+/*--------------------------- #define (Sustitución de BLOQUES) --------------------------------
+ #define <identificador> 	\
+ 		<linea de texto>	\
+ 		.					\
+ 		.					\
+ 		<linea de texto>
+----------------------------------------------------------------------------------------------*/
 
 #define BLOQUE_DE_CODIGO				\
 {										\
@@ -123,7 +123,7 @@ wekrjwherkwjrwkrjwekrw = "Qué nombre tan largo";
 //			/ Utilería
 
 #include <ctype.h>	// "<>" significa que el archivo está en la misma carpeta que el compilador
-#include "../include/misFuncionesMatematicas.hpp" 	// "" significa que partes de la carpeta
+#include "../util/misFuncionesMatematicas.hpp" 	// "" significa que partes de la carpeta
 													// del actual .cpp o .hpp
 
 // Operador # -> Transforma valor numerico en una cadena dentro de una definición o macro
@@ -166,10 +166,10 @@ void compilacion_condicional()
 }
 
 // podemos incluir varias veces el mismo archivo pues está protegido por #ifndef
-#include "../include/misFuncionesMatematicas.hpp"
-#include "../include/misFuncionesMatematicas.hpp"
-#include "../include/misFuncionesMatematicas.hpp"
-#include "../include/misFuncionesMatematicas.hpp"
+#include "../util/misFuncionesMatematicas.hpp"
+#include "../util/misFuncionesMatematicas.hpp"
+#include "../util/misFuncionesMatematicas.hpp"
+#include "../util/misFuncionesMatematicas.hpp"
 
 // #pragma once	<- Versión moderna: funciona igual que meter #ifndef, #define y #endif
 

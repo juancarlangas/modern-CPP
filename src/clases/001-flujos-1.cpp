@@ -140,17 +140,17 @@ void tipos_de_caracteres_y_cadenas()
 	// Por lo tanto, un texto utf-8 es interpretado como ANSI a menos que se indique lo contrario
 
 	std::cout <<
-		#include "../txt/mario-utf8.txt"
+		#include "../../txt/mario-utf8.txt"
 	;
 
 	std::string marioANSI =
-		#include "../txt/mario-utf8.txt"
+		#include "../../txt/mario-utf8.txt"
 	;
 	std::cout << marioANSI << std::endl;
 
 	// se especifica que es utf8 y debe se casteado, pero igual sale
 	std::u8string marioUTF8 =
-		#include "../txt/u8_mario-utf8.txt"
+		#include "../../txt/u8_mario-utf8.txt"
 	;
 	std::cout << (const char *)marioUTF8.data() << std::endl;
 

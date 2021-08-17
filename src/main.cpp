@@ -2,7 +2,7 @@
 #include <iostream>
 #include <functional>
 #include <array>
-#include "../include/temas.hpp"
+#include "clases/temas.hpp"
 
 int32_t main( int argc, const char *argv[] )
 {
