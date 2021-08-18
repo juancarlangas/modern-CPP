@@ -66,6 +66,9 @@ void buffers()
 	// Al final le devolvemos a std::cout su buffer original
 	std::cout.rdbuf( temp_buffer );
 
+	/* Por ahora dejamos pendiente esta última parte debido a que no hemos podido hacer
+	 * que funcione en GNU */
+
 	// CREAR NUESTRO BUFFER
 /*
 		std::filebuf mi_buffer{ stdout };

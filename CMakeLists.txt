@@ -17,6 +17,7 @@ add_executable( course
 	src/clases/005-funciones-2.cpp
 	src/clases/006-define.cpp
 	src/clases/007-condicionales.cpp
+	src/clases/008-string_view.cpp
     src/clases/008-2-0-atributos.cpp
     src/clases/008-2-1-enumeraciones.cpp
     src/clases/008-2-2-switch.cpp
@@ -24,8 +25,17 @@ add_executable( course
     src/clases/008-3-1-arreglos.cpp
     src/util/utilities.cpp
 	src/util/misFuncionesMatematicas.cpp )
+ 
+# LA siguiente propiedad es la investigada,
+# pero la subsecuente es la enseñada por Denis, que es especìfica para el TARGET
+# y además permite que sean varias propiedades.
 
-set_property( TARGET course PROPERTY CXX_STANDARD 20 )
+	# set_property( TARGET course PROPERTY CXX_STANDARD 20 )
+
+set_target_properties( course PROPERTIES
+	CXX_STANDARD 20
+	RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin" )
+
 target_compile_features( course PRIVATE cxx_std_20 )
 set( CXX_STANDARD_REQUIRED ON )
 

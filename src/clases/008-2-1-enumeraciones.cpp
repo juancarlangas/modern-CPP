@@ -68,12 +68,15 @@ void enumeracion_con_ambito() noexcept
 {
     print_function_title( __func__ );
 
-    using enum Kolor;
+	/* por ahora dejamos pendiente el uso de using enum, debido a que las implementaciones
+	 * que tenemos en Debian Bullseye y Termux de GCC y Clang no lo han integrado */
+
+    // using enum Kolor;
 
     std::cout   << "El valor del cafe es "
                 << static_cast<std::underlying_type_t<Kolor>>( Kolor::brown ) << '\n';
     std::cout   << "El valor del magenta es "
-                << static_cast<std::underlying_type_t<Kolor>>( magenta ) << '\n';
+                << static_cast<std::underlying_type_t<Kolor>>( Kolor::magenta ) << '\n';
     std::cout   << "El tipo asociado al color magenta es "
                 << typeid( std::underlying_type_t<Kolor> ).name() << '\n';
     std::cout   << "En GNU, no es claro el tipo, así que lo comparamos con int32_t.\n"

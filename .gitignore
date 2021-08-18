@@ -2,3 +2,4 @@ build/
 bin/
 Material/
 obj/
+.vscode/

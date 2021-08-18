@@ -59,12 +59,32 @@ int32_t main( int argc, const char *argv[] )
 			enumeraciones();
 			enumeraciones_con_ambito();
 			break;
+
 		case 8:
+			// 008 - string_view (clase repuesta)
 			palabra_string_view();
 			sentencia_if();
 			sentencia_if_2();
 			parametros_variables();
 			retornos_variables();
+
+			// 008-2-atributos.cpp
+			atributo_noreturn();
+			atributo_deprecated();
+			atributo_no_unique_adress();
+			atributo_maybe_unused();
+			atributos_de_switch();
+
+			// 008-2-1-enumeraciones.cpp
+			enumeracion_sin_ambito();
+			enumeracion_con_ambito();
+
+			// 008-2-2-switch.cpp
+			estructura_switch();
+
+			// 008-3-0-arreglos.cpp
+			clase_array();
+
 			break;
 	}
 

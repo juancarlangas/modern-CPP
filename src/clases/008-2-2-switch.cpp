@@ -38,16 +38,19 @@ auto print = [&]( const char *_Texto )
         mostrar_color_value( _Out, _Texto );
 };
 
-using enum Colour;
+/* por ahora dejamos pendiente el uso de using enum, debido a que las implementaciones
+* que tenemos en Debian Bullseye y Termux de GCC y Clang no lo han integrado */
+
+// using enum Colour;
 
 switch ( _Color )
 {
-    case GREEN: print( "rojo" ); break;
-    case BLUE:  print( "azul" ); break;
-        case GRAY:  print( "gris" ); break;
-        case OCRE:  print( "ocre" ); break;
-        case TEAL:  print( "teal" ); break;
-        default:    print( "desconocido" ); break;
+	case Colour::GREEN: print( "rojo" ); break;
+	case Colour::BLUE:  print( "azul" ); break;
+	case Colour::GRAY:  print( "gris" ); break;
+	case Colour::OCRE:  print( "ocre" ); break;
+	case Colour::TEAL:  print( "teal" ); break;
+    default:    print( "desconocido" ); break;
     }
 
     return _Out;
